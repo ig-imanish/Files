@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    width: 100%;
+    height: 60vw;
+}
+#bck{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 180px;
+    height: 90px;
+}
+/* #head{
+    display: flex;
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 200;
+    font-size: 45px;
+} */
+#line{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: #dcd9d9;
+    /* background-color: aquamarine; */
+    padding: 0px 10px 0px 10px;
+    /* position: fixed; */
+}
+#line1{
+    width: 40%;
+    display: flex;
+    justify-content: space-around ;
+    /* gap: 10px; */
+}
+#line2{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.elem:hover{
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+}
+#blck{
+    /* display: block; */
+    width: 100%;
+    height: 200px;
+    background-color:#f4f3f3 ;
+    padding: 60px 300px 60px 300px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tag2{
+    padding: 5px 120px 20px 120px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+#tag1{
+    /* display: flex; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.mblocks{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #f4f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+.box{
+    width: 250px;
+    height: 130px;
+    border-radius: 30px;
+    padding: 3px 5px 1px 5px;
+    gap: 10px;
+    color: white;
+    box-shadow: 0px 6px 10px rgb(122, 122, 122);
+
+}
+#blu1{
+    background-image: linear-gradient(blue,rgb(24, 24, 80));
+}
+#blu2{
+    background-image: linear-gradient(blue,rgb(24, 24, 80));
+}
+#red1{
+    background-image: linear-gradient(rgb(190, 2, 2),rgb(86, 14, 2));
+}
+#red2{
+    background-image: linear-gradient(rgb(190, 2, 2),rgb(86, 14, 2));
+}
+#green1{
+    background-image: linear-gradient(rgb(78, 210, 3),rgb(2, 86, 13));
+}
+#green2{
+    background-image: linear-gradient(rgb(78, 210, 3),rgb(2, 86, 13));
+}
+#lblu1{
+    background-image: linear-gradient(rgb(3, 117, 210),rgb(2, 59, 86));
+}
+#lblu2{
+    background-image: linear-gradient(rgb(3, 117, 210),rgb(2, 59, 86));
+}
+#word1{
+    width: 60px;
+    height: 60px;
+}
+#ppt1{
+    width: 60px;
+    height: 60px;
+}
+#excel1{
+    width: 60px;
+    height: 60px;
+}
+#odt1{
+    width: 60px;
+    height: 60px;
+}
+#word2{
+    width: 60px;
+    height: 60px;
+}
+#ppt2{
+    width: 60px;
+    height: 60px;
+}
+#excel2{
+    width: 60px;
+    height: 60px;
+}
+#odt2{
+    width: 60px;
+    height: 60px;
+}
+.para{
+    padding: 0px 7px 10px 10px;
+    font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+}
+.inside{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50;
+
+}
+#bblocks{
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color: #f4f3f3;
+    padding: 30px 60px 30px 60px;
+}
+#tut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+#boxes{
+    display: flex;
+    padding: 40px 0px 40px 0px;
+    justify-content: space-around;
+}
+.tutbox{
+    /* display: flex; */
+    width: 300px;
+    height: 135px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 6px 10px rgb(122, 122, 122);
+}
+.sizes{
+    width: 40px;
+    height: 40px;
+}
+.group{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.tutfont{
+    padding: 3px 3px 0px 3px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
