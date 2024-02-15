@@ -27,7 +27,7 @@ FilesConverterWebProject is a web application designed to convert various file f
 4. Deploy the application on a Java servlet container (e.g., Apache Tomcat).
 
 ## Screenshot
-> ![Screenshot](https://myoctocat.com/assets/images/base-octocat.svg)
+> ![Screenshot](https://imgur.com/a/vW7FYDP)
 
 ## License
 This project is licensed under the [MIT License](https://itzmanish.tech/).
